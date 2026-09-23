@@ -5,7 +5,7 @@ function Mail(asunto, mensaje) {
 
 // ¡Escribe tu código debajo de esta línea!
 
-const nuevoCorreo = new Mail()
+const nuevoCorreo = new Mail('tomate', 'salsa')
 
 // ¡Escribe tu código encima de esta línea!
 
