@@ -10,7 +10,7 @@ function Mail(asunto, mensaje) {
   };
 }
 
-const nuevoCorreo = new Mail("pizza", "piña");
+const nuevoCorreo = new Mail(process.argv[3], process.argv[4]);
 
 // ¡Escribe tu código encima de esta línea!
 
