@@ -1,5 +1,16 @@
 // ¡Escribe tu código debajo de esta línea!
+function FriendsList(list) {
+  this.friends = list;
+  this.imprimir = function () {
+    console.log(this.friends);
+  };
+}
 
+const getItems = (arg) => {
+    const counterItems = arg[3]
+    return (arg.reverse().splice(0, counterItems)).reverse()
+}
 
-
-// ¡Escribe tu código encima de esta línea!
+const amigos = new FriendsList(getItems(process.argv));
+amigos.imprimir()
+// ¡Escribe tu código eamigosncima de esta línea!

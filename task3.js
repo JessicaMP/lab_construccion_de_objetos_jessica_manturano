@@ -6,7 +6,6 @@ function Mail(asunto, mensaje) {
 
   this.imprimirCorreo = function () {
     console.log( `${this.asunto}: ${this.mensaje}`);
-    ;
   };
 }
 
