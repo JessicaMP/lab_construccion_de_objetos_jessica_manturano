@@ -7,7 +7,7 @@ function FriendsList(list) {
 }
 
 const getItems = (arg) => {
-    const counterItems = arg[3]
+    const counterItems = Number(arg[3])
     return (arg.reverse().splice(0, counterItems)).reverse()
 }
 
